@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Side Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .side-nav {
+            height: 100vh;
+            position: fixed;
+            width: 60px;
+            background-color: #343a40;
+            text-align: center;
+        }
+        .side-nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 0;
+            display: block;
+        }
+        .side-nav a:hover {
+            background-color: #495057;
+        }
+        .side-nav i {
+            display: block;
+            margin: auto;
+        }
+        .side-nav .nav-text {
+            display: none;
+        }
+        .content {
+            margin-left: 60px; /* Adjust according to the side-nav width */
+            padding: 30px;
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+            max-width: 660px; /* Adjust based on your image width */
+        }
+        .about-me h1, .about-me h2, .about-me p {
+            color: white;
+        }
+        .skills {
+            color: white;
+        }
+        .experience {
+            margin-top: 30px;
+        }
+        .education {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body style="background-color: black">
+
+<div class="side-nav d-flex flex-column align-items-center">
+    <a href="#home" class="text-white">
+        <i class="fas fa-home"></i>
+        <span class="nav-text">Home</span>
+    </a>
+    <a href="mailto:uthonga25@gmail.com" class="text-white">
+        <i class="fas fa-envelope"></i>
+        <span class="nav-text">Contact</span>
+    </a>
+    <div class="mt-auto p-3">
+        <a href="https://facebook.com" class="text-white">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com" class="text-white">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="linkedin.com/in/unathi-thonga-6800b12b2" class="text-white">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+</div>
+
+<div class="content">
+    <div class="about-me">
+        <h1 >About me</h1>
+        <h2 style="color: cornflowerblue">Personal statement</h2 style="color: cornflowerblue">
+        <p>I am passionate about becoming a CA(SA), driven by hard work and persistence.<br>
+            Currently pursuing my BCom Accounting degree at the University of the Western Cape, <br>
+            I approach challenges with positivity and critical thinking. As Chairperson of my school residence's House Committee,<br>
+            I enhance student life through wellness initiatives and leadership. Additionally, <Br>
+            I tutor in Academic Literacy for Commerce, nurturing essential writing and communication skills.<Br>
+            My dedication to fostering leadership in others reflects my belief in everyone's unique potential.<br>
+
+            <i class="fas fa-award icon"></i>Member of Golden Key Southern Africa. 🔑<br></p>
+    </div>
+
+    <div class="education">
+        <h2  style="color: cornflowerblue">Education<i class="fas fa-graduation-cap icon"></i></h2>
+        <p><strong>2021 - 2024</strong><br>
+            Bcom Accounting<br>
+            Deans merit awards 2023<br>
+            <i class="fas fa-book-open icon"></i>Auditing | Taxation | financial accounting | managerial accounting
+        </p>
+    </div>
+
+    <div class="experience">
+        <h2  style="color: cornflowerblue">Professional Experience <i class="fas fa-briefcase icon"></i></h2>
+        <p><strong>Nov 2023 - March 2024</strong> – intern Accountant<br>
+            Apex Group<br>
+            I work closely with senior accountants to support the month-end close process, manage cash flow forecasts, and perform detailed financial analysis. <br>
+            Additionally, I maintain strong relationships with clients, auditors, and other stakeholders to ensure the timely and efficient delivery of financial information.<br>
+        </p>
+        <p><strong>June 2023 - July 2023</strong> – Deloitte Advanced Vac Program<br>
+            This immersive program offers participants the opportunity to work alongside Deloitte's seasoned professionals on real client engagements,<br>
+            gaining insights into areas such as audit, consulting, tax, risk advisory, and financial advisory services.<br>
+        </p>
+    </div>
+
+    <h1 class="skills" style="color: cornflowerblue">Skills<i class="fas fa-cogs icon"></i></h1>
+    <p>
+
+        Auditing | Regulatory compliance | Enfusion | Microsoft Excel | Taxation | sage<br>
+        Empathy, adaptability | Time management | Planning<br>
+    </p>
+
+
+</div>
+
+<img src="WhatsApp_Image_2024-06-25_at_20.39.57-removebg-preview.png" style="height: 900px; width: 660px; padding: 30px">
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
+
